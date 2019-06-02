@@ -1,6 +1,5 @@
-// lab 7.cpp : Defines the entry point for the console application.
-//
 
+#include <iostream>
 #include "stdafx.h"
 #include "mage.h"
 #include "spell.h"
@@ -17,17 +16,47 @@ int _tmain(int argc, _TCHAR* argv[])
 	drain.name="zaklinanie";
 
 	mage vanya, boris;
-	vanya.init(100,100,"Ã¿√ mangki");
-	boris.init(100,100,"Ã¿√ manguoyu");
+	vanya.init(100,100,"Vanya the mage of fire");
+	boris.init(100,100,"Borya the mage of water");
 
-	vanya.cast(bolt, boris);
-	boris.cast(drain, vanya);
-	vanya.cast(drain, boris);
-	boris.cast(bolt, vanya);
-	vanya.cast(bolt, boris);
-	boris.cast(drain, vanya);
+	mage thisMage;
+	spell* thisSpell;
+	bool fightEnd = false;
 
-	system ("pause");
-	return 0;
+	thisMage = vanya;
+	thisSpell = &bolt;
+
+	while (!fightEnd)
+	{
+		if (thisMage.getName() == "Vanya")
+		{
+			if (thisMage.cast(*thisSpell, boris) != 0)
+			{
+				thisMage = boris;
+				if (thisSpell == &bolt)
+					thisSpell = &drain;
+				else
+					thisSpell = &bolt;
+			}
+			else 
+			{
+				thisMage.say("im lose and cant spell");
+				fightEnd = true;
+			}
+		}
+		else
+		{
+			if (thisMage.cast(*thisSpell, vanya) != 0)
+			{
+				thisMage = vanya;
+			}
+			else
+			{
+				thisMage.say("im lose and cant spell");
+				fightEnd = true;
+			}
+		}
+	}
+	system("PAUSE");
 }
 

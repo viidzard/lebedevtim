@@ -12,7 +12,6 @@ void mage::init(int newhp, int newmp, string newname)
 	this-> hp=newhp;
 	this->mp=newmp;
 	this->name=newname;
-	return;
 }
 
 string mage::getname()
@@ -22,23 +21,23 @@ string mage::getname()
 
 void mage::say(string text)
 {
-	cout <<this->name<<" say: " << text << endl;
-	return;
+	std::cout << name << "say " << text << std::endl;
+	
 }
 
 int mage::cast(spell & cast, mage & target)
 {
 	if(this->hp>0)
 	{
-		cout << this->name << "hit with" << spl.name << "bolt" << endl;
-			target.hit(spl);
-}else
+		std::cout << name << " hit with" << target.getName()<< " enemy " << spl.name << std::endl;
+		target.hit(spl);
+		return -1;
+}
+	else
 	{
-		cout << this->name << "is loser and cant spell";
+	  return 0;
 }
-return 0;
 }
-
 
 	void mage::hit(spell & spl)
 	{
