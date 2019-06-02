@@ -14,7 +14,15 @@ void money::set(int newRubley, int newKopeek)
 		kopeek = newKopeek;
 }
 
+int money::getRubley()
+{
+	return this->rubley;
+}
 
+unsigned char money::getKopeek();
+{
+	return this->kopeek;
+}
 
 void money::substractMoney(money & someMoney)
 {
@@ -38,7 +46,6 @@ void money::addMoney(money & someMoney)
 		kopeek -= 100;
 	}
 }
-
 
 
 
