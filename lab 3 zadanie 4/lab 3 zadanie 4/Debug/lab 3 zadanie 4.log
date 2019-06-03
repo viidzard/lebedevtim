@@ -1,0 +1,13 @@
+﻿Build started 03.06.2019 12:45:12.
+     1>Project "c:\Users\viidz\documents\visual studio 2012\Projects\lab 3 zadanie 4\lab 3 zadanie 4\lab 3 zadanie 4.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\viidz\documents\visual studio 2012\Projects\lab 3 zadanie 4\Debug\lab 3 zadanie 4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\viidz\documents\visual studio 2012\Projects\lab 3 zadanie 4\Debug\lab 3 zadanie 4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\viidz\documents\visual studio 2012\Projects\lab 3 zadanie 4\Debug\lab 3 zadanie 4.lib" /MACHINE:X86 "Debug\lab 3 zadanie 4.obj"
+         Debug\stdafx.obj
+         ..\Debug\Win32StaticLib.lib
+     1>Win32StaticLib.lib(Source.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1900' doesn't match value '1700' in lab 3 zadanie 4.obj
+     1>c:\users\viidz\documents\visual studio 2012\Projects\lab 3 zadanie 4\Debug\lab 3 zadanie 4.exe : fatal error LNK1319: 1 mismatches detected
+     1>Done Building Project "c:\Users\viidz\documents\visual studio 2012\Projects\lab 3 zadanie 4\lab 3 zadanie 4\lab 3 zadanie 4.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.43
