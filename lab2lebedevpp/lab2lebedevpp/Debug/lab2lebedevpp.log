@@ -1,0 +1,23 @@
+﻿Build started 03.06.2019 1:29:08.
+     1>Project "c:\Users\viidz\documents\visual studio 2012\Projects\lab2lebedevpp\lab2lebedevpp\lab2lebedevpp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\lab2lebedevpp.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt complex.cpp lab2lebedevpp.cpp
+         lab2lebedevpp.cpp
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab2lebedevpp\lab2lebedevpp\complex.h(10): error C2039: 'vector' : is not a member of 'std'
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab2lebedevpp\lab2lebedevpp\complex.h(10): error C2061: syntax error : identifier 'vector'
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab2lebedevpp\lab2lebedevpp\complex.h(11): error C2039: 'vector' : is not a member of 'std'
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab2lebedevpp\lab2lebedevpp\complex.h(11): error C2061: syntax error : identifier 'vector'
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab2lebedevpp\lab2lebedevpp\lab2lebedevpp.cpp(13): error C3861: 'read_complex': identifier not found
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab2lebedevpp\lab2lebedevpp\lab2lebedevpp.cpp(14): error C3861: 'write_complex': identifier not found
+         complex.cpp
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab2lebedevpp\lab2lebedevpp\complex.h(10): error C2039: 'vector' : is not a member of 'std'
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab2lebedevpp\lab2lebedevpp\complex.h(10): error C2061: syntax error : identifier 'vector'
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab2lebedevpp\lab2lebedevpp\complex.h(11): error C2039: 'vector' : is not a member of 'std'
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab2lebedevpp\lab2lebedevpp\complex.h(11): error C2061: syntax error : identifier 'vector'
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab2lebedevpp\lab2lebedevpp\complex.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+     1>Done Building Project "c:\Users\viidz\documents\visual studio 2012\Projects\lab2lebedevpp\lab2lebedevpp\lab2lebedevpp.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.05
