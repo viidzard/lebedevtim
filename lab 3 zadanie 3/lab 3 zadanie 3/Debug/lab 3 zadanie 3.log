@@ -1,0 +1,14 @@
+﻿Build started 03.06.2019 12:38:02.
+     1>Project "c:\Users\viidz\documents\visual studio 2012\Projects\lab 3 zadanie 3\lab 3 zadanie 3\lab 3 zadanie 3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\lab 3 zadanie 3.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "lab 3 zadanie 3.cpp"
+         lab 3 zadanie 3.cpp
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab 3 zadanie 3\lab 3 zadanie 3\lab 3 zadanie 3.cpp(13): error C2065: 'complex' : undeclared identifier
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab 3 zadanie 3\lab 3 zadanie 3\lab 3 zadanie 3.cpp(13): error C2923: 'std::vector' : 'complex' is not a valid template type argument for parameter '_Ty'
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab 3 zadanie 3\lab 3 zadanie 3\lab 3 zadanie 3.cpp(14): error C3861: 'read_complex': identifier not found
+     1>c:\users\viidz\documents\visual studio 2012\projects\lab 3 zadanie 3\lab 3 zadanie 3\lab 3 zadanie 3.cpp(15): error C3861: 'write_complex': identifier not found
+     1>Done Building Project "c:\Users\viidz\documents\visual studio 2012\Projects\lab 3 zadanie 3\lab 3 zadanie 3\lab 3 zadanie 3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.77
